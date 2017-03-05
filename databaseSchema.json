@@ -1,0 +1,58 @@
+{
+	"users": {
+		"userId": {
+			"sessions": {
+				"sessionId": "sessionTag",
+				"sessionId": "sessionTag"
+			}
+		},
+		"userId": {}
+	},
+
+	"invites": {
+		"inviteId": {
+			"inviter":"userId",
+			"invitee": "userId",
+			"session": "sessionId"
+		}
+	},
+
+	"sessions": {
+		"sessionId": {
+			"sessionTag": "***",
+			"sessionMaster": "userName",
+			"code": "****",
+			"chat": "chatId",
+			"members": {
+				"userId": "userName",
+				"userId": "userName"
+			},
+			"validity": "timestamp/NA"
+		},
+		"sessionId": {},
+		"sessionId": {}
+	},
+
+	"chats": {
+		"chatId": {
+			"messageId": {
+				"message": "***",
+				"author": "***",
+				"timestamp": "***"
+			},
+			"messageId": {},
+			"messageId": {}
+		},
+		"chatId": {},
+		"chatId": {}
+	},
+
+	"scripts": {
+		"scriptId": {
+			"scriptName": "***",
+			"code": "***"
+		},
+		"scriptId": {},
+		"scriptId": {}
+	}
+}
