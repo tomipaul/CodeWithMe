@@ -1,0 +1,39 @@
+{
+  "name": "codewithme",
+  "version": "1.0.0",
+  "description": "A pair programming application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomipaul/CodeWithMe.git"
+  },
+  "keywords": [
+    "Pair",
+    "Programing",
+    "node.js",
+    "expressJS",
+    "Firebase",
+    "liveEditor",
+    "chatBox",
+    "sessions",
+    "code",
+    "html",
+    "css",
+    "vanillaJS"
+  ],
+  "author": "Oluwatomi Paul Akande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomipaul/CodeWithMe/issues"
+  },
+  "homepage": "https://github.com/tomipaul/CodeWithMe#readme",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.0",
+    "firebase-admin": "^4.1.2"
+  }
+}
